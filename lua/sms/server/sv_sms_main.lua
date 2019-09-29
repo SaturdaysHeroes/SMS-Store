@@ -42,6 +42,7 @@ function SMS:Process(pPlayer, intCode, intPNumber, intServiceID)
             end   
         else
             SMS:Notify(pPlayer, "[SMS] "..SMS.Config.Language.onfailure)
+            v.onFailure(pPlayer)
         end  
     end)
 end
