@@ -6,6 +6,3 @@ SMS Store was created for Garry's Mod servers and allows server owners to make a
 
 ## Installation 
 SMS Store uses [SimPay.pl](https://simpay.pl/) API to process the codes and check their validity, therefore **owning a partner acccount registered in Poland is a requirement.** You also need to create packages on the Premium SMS Panel on SimPay and create your packages of choice in the config using the appropriate IDs provided by SimPay. Additionally, you will have to enter your API details in `lua/sms/server/sv_sms_main.lua` otherwise the API calls will fail. 
-
-## Credits
-- SaturdaysHeroes (Backend)
